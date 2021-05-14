@@ -41,6 +41,7 @@
             </div>
         </div>
 
+
         <div class="form-group">
             <label for="gender" class="text-light">Status</label>
             <div class="radio inline">
@@ -51,6 +52,16 @@
                 <input type="radio" id="radio-5" name="status" value="Inactive" <%= user.status == 'Inactive' ? 'checked' : '' %> >
                 <label for="radio-5" class="radio-label">Inactive</label>
             </div>
+        </div>
+
+        <div class="form-group">
+            <label for="phone" class="text-light">Number</label>
+            <input type="number" name="phone" value="<%= user.phone%>" placeholder="11111111111">
+        </div>
+
+        <div class="form-group">
+            <label for="rphone" class="text-light">Roll-Number</label>
+            <input type="number" name="rphone" value="<%= user.rphone%>" placeholder="11111111111">
         </div>
 
         <div class="form-group">

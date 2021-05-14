@@ -11,7 +11,6 @@ exports.homeRoutes = (req, res) => {
             res.send(err);
         })
 
-    
 }
 
 exports.add_user = (req, res) =>{
